@@ -1,0 +1,33 @@
+header{
+    background: rgb(179, 179, 150);
+}
+.navbar li{
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+
+}
+.navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5em;
+
+}
+.navbar a {
+    color: #8d3939;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: rgb(85, 36, 62);
+    border-bottom: 2px solid rgb(107, 80, 80);
+}
+.box{
+    background: radial-gradient(rgb(236, 188, 188), rgb(187, 187, 238));
+    position: absolute;
+    padding: 100px;
+    margin-left: 350px;
+    top: 200px;
+}
+
